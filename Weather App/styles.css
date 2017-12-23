@@ -1,0 +1,79 @@
+/*styles.css*/
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #021c1e;
+	font-family: 'Open Sans', sans-serif;
+}
+
+i {
+	font-size: 2em;
+
+
+}
+.container {
+	width: 45%;
+	margin: 2% auto;
+	padding: 1%;
+	background-color: rgba(42,49,50, 0.5);
+	border-radius: 10%;
+}
+.top-heading {
+	font-weight: bold;
+	text-align: left;
+	display: inline-block;
+	margin-bottom: -5%;
+}
+
+.secondary-heading {
+	display: block;
+	margin: 0 auto;
+	/*font-weight: bold;*/
+	font-size: 3.5em;
+	text-align: center;
+}
+
+.forecast {
+	text-align: center;
+
+}
+
+.seven-day-forecast {
+	display: inline-block;
+	color: #021c1e;
+	margin: 1% 3% 3% auto;
+	padding: 1.5%;
+	width: 7%;
+	line-height: 1.5em;
+	border-radius: 5%;
+	font-size: 15px;
+
+}
+
+.circular.ui.inverted.button {
+	background-color: rgba(51,107,135, 0.6);
+	display: block;
+	margin: 0 auto;
+}
+
+.ui.button:active,
+.ui.active.button:active {
+	background-color: rgba(51,107,135, 0.6);
+}
+.ui.inverted.button.selected.active, .ui.inverted.button:focus {
+	background-color: rgba(51,107,135, 0.6);
+	background-color: rgba(51,107,135, 0.6)!important;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  } 
+  .seven-day-forecast {
+    width: 75%;
+    padding: 3%
+  }
+}
+
+
